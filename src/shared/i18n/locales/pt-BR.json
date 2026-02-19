@@ -1,0 +1,146 @@
+{
+  "common": {
+    "loading": "Carregando...",
+    "error": "Ocorreu um erro",
+    "retry": "Tentar novamente",
+    "back": "Voltar",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "search": "Buscar",
+    "noResults": "Nenhum resultado encontrado",
+    "seeMore": "Ver mais",
+    "seeLess": "Ver menos"
+  },
+  "auth": {
+    "login": "Entrar com Spotify",
+    "logout": "Sair",
+    "loggingIn": "Entrando...",
+    "loginSuccess": "Login realizado com sucesso!",
+    "loginError": "Erro ao fazer login",
+    "completingAuth": "Entrando...",
+    "authenticatedSuccess": "Autenticado com sucesso!"
+  },
+  "home": {
+    "title": "Spotify Artists",
+    "subtitle": "Descubra e explore seus artistas favoritos",
+    "loginPrompt": "Faça login com sua conta Spotify para começar",
+    "searchArtists": "Buscar Artistas",
+    "myLibrary": "Minha Biblioteca",
+    "recentFavorites": "Favoritos Recentes",
+    "seeAll": "Ver todos",
+    "artist": "Artista",
+    "album": "Álbum"
+  },
+  "search": {
+    "placeholder": "O que você quer ouvir?",
+    "button": "Buscar"
+  },
+  "navigation": {
+    "search": "Buscar",
+    "library": "Biblioteca"
+  },
+  "artists": {
+    "title": "Buscar Música",
+    "searchPlaceholder": "Digite o nome de um artista...",
+    "searchAlbumsPlaceholder": "Digite o nome de um álbum...",
+    "searchPrompt": "Digite o nome de um artista para começar a busca",
+    "searchAlbumsPrompt": "Digite o nome de um álbum para começar a busca",
+    "searchArtists": "Artistas",
+    "searchAlbums": "Álbuns",
+    "noArtistsFound": "Nenhum artista encontrado para \"{{query}}\"",
+    "noResults": "Nenhum artista encontrado",
+    "noAlbumResults": "Nenhum álbum encontrado",
+    "followers": "seguidores",
+    "followers_count": "{{count}} seguidores",
+    "popularity": "Popularidade",
+    "genres": "Gêneros",
+    "topTracks": "Músicas Mais Populares",
+    "albums": "Álbuns e Singles",
+    "openInSpotify": "Ouvir no Spotify",
+    "tab": {
+      "artists": "Artistas",
+      "albums": "Álbuns"
+    }
+  },
+  "albums": {
+    "title": "Álbuns",
+    "searchPlaceholder": "Digite o nome de um álbum...",
+    "searchPrompt": "Digite o nome de um álbum para começar a busca",
+    "noAlbumsFound": "Nenhum álbum encontrado para \"{{query}}\"",
+    "tracks": "{{count}} faixas",
+    "releaseDate": "Lançamento"
+  },
+  "tracks": {
+    "title": "Faixas",
+    "duration": "Duração",
+    "album": "Álbum",
+    "preview": "Preview"
+  },
+  "library": {
+    "title": "Minha Biblioteca",
+    "empty": "Sua biblioteca está vazia",
+    "emptyTitle": "Nenhum favorito ainda",
+    "emptyDescription": "Nenhum item na biblioteca",
+    "emptyMessage": "Adicione artistas e álbuns aos seus favoritos para vê-los aqui",
+    "emptyPrompt": "Você ainda não tem favoritos. Comece explorando artistas!",
+    "exploreArtists": "Explorar Artistas",
+    "favoriteArtists": "Artistas Favoritos",
+    "favoriteAlbums": "Álbuns Favoritos",
+    "stats": "{{artists}} {{artistLabel}} • {{albums}} {{albumLabel}}",
+    "artist": "artista",
+    "artist_plural": "artistas",
+    "album": "álbum",
+    "album_plural": "álbuns",
+    "addToFavorites": "Adicionar aos favoritos",
+    "removeFromFavorites": "Remover dos favoritos",
+    "addedToLibrary": "Adicionado à biblioteca",
+    "removedFromLibrary": "Removido da biblioteca",
+    "addedToLibraryWithName": "{{name}} adicionado à biblioteca",
+    "removedFromLibraryWithName": "{{name}} removido da biblioteca"
+  },
+  "pagination": {
+    "previous": "Anterior",
+    "next": "Próxima",
+    "page": "Página {{current}} de {{total}}",
+    "showing": "Mostrando {{from}}-{{to}} de {{total}}"
+  },
+  "errors": {
+    "generic": "Algo deu errado",
+    "genericDescription": "Erro. Tente novamente.",
+    "networkError": "Erro de conexão. Verifique sua internet.",
+    "notFound": "Página não encontrada",
+    "notFoundDescription": "Página não encontrada.",
+    "artistNotFound": "Artista não encontrado",
+    "artistNotFoundDescription": "Artista não encontrado.",
+    "unauthorized": "Sessão expirada. Faça login novamente.",
+    "tryAgain": "Tentar novamente",
+    "goHome": "Voltar para o início",
+    "reloadPage": "Recarregar página"
+  },
+  "language": {
+    "select": "Idioma",
+    "pt-BR": "Português (Brasil)",
+    "en-US": "English (US)"
+  },
+  "charts": {
+    "title": "Estatísticas",
+    "subtitle": "Análise das músicas de {{artist}}",
+    "popularity": "Popularidade",
+    "tracks": "músicas",
+    "popularityTitle": "Popularidade das Top Tracks",
+    "durationTitle": "Distribuição por Duração",
+    "stats": {
+      "avgPopularity": "Popularidade Média",
+      "avgDuration": "Duração Média",
+      "totalTracks": "Total de Músicas",
+      "explicitTracks": "Conteúdo Explícito"
+    },
+    "duration": {
+      "veryShort": "Muito Curta (<2min)",
+      "short": "Curta (2-3min)",
+      "medium": "Média (3-4min)",
+      "long": "Longa (4-5min)",
+      "veryLong": "Muito Longa (>5min)"
+    }
+  }
+}

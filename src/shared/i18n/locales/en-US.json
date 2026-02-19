@@ -1,0 +1,146 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try again",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "search": "Search",
+    "noResults": "No results found",
+    "seeMore": "See more",
+    "seeLess": "See less"
+  },
+  "auth": {
+    "login": "Login with Spotify",
+    "logout": "Logout",
+    "loggingIn": "Logging in...",
+    "loginSuccess": "Successfully logged in!",
+    "loginError": "Login failed",
+    "completingAuth": "Logging in...",
+    "authenticatedSuccess": "Successfully authenticated!"
+  },
+  "home": {
+    "title": "Spotify Artists",
+    "subtitle": "Discover and explore your favorite artists",
+    "loginPrompt": "Log in with your Spotify account to get started",
+    "searchArtists": "Search Artists",
+    "myLibrary": "My Library",
+    "recentFavorites": "Recent Favorites",
+    "seeAll": "See all",
+    "artist": "Artist",
+    "album": "Album"
+  },
+  "search": {
+    "placeholder": "What do you want to listen to?",
+    "button": "Search"
+  },
+  "navigation": {
+    "search": "Search",
+    "library": "Library"
+  },
+  "artists": {
+    "title": "Search Music",
+    "searchPlaceholder": "Enter an artist name...",
+    "searchAlbumsPlaceholder": "Enter an album name...",
+    "searchPrompt": "Enter an artist name to start searching",
+    "searchAlbumsPrompt": "Enter an album name to start searching",
+    "searchArtists": "Artists",
+    "searchAlbums": "Albums",
+    "noArtistsFound": "No artists found for \"{{query}}\"",
+    "noResults": "No artists found",
+    "noAlbumResults": "No albums found",
+    "followers": "followers",
+    "followers_count": "{{count}} followers",
+    "popularity": "Popularity",
+    "genres": "Genres",
+    "topTracks": "Top Tracks",
+    "albums": "Albums & Singles",
+    "openInSpotify": "Listen on Spotify",
+    "tab": {
+      "artists": "Artists",
+      "albums": "Albums"
+    }
+  },
+  "albums": {
+    "title": "Albums",
+    "searchPlaceholder": "Enter an album name...",
+    "searchPrompt": "Enter an album name to start searching",
+    "noAlbumsFound": "No albums found for \"{{query}}\"",
+    "tracks": "{{count}} tracks",
+    "releaseDate": "Release date"
+  },
+  "tracks": {
+    "title": "Tracks",
+    "duration": "Duration",
+    "album": "Album",
+    "preview": "Preview"
+  },
+  "library": {
+    "title": "My Library",
+    "empty": "Your library is empty",
+    "emptyTitle": "No favorites yet",
+    "emptyDescription": "No items in library",
+    "emptyMessage": "Add artists and albums to your favorites to see them here",
+    "emptyPrompt": "You don't have any favorites yet. Start exploring artists!",
+    "exploreArtists": "Explore Artists",
+    "favoriteArtists": "Favorite Artists",
+    "favoriteAlbums": "Favorite Albums",
+    "stats": "{{artists}} {{artistLabel}} • {{albums}} {{albumLabel}}",
+    "artist": "artist",
+    "artist_plural": "artists",
+    "album": "album",
+    "album_plural": "albums",
+    "addToFavorites": "Add to favorites",
+    "removeFromFavorites": "Remove from favorites",
+    "addedToLibrary": "Added to library",
+    "removedFromLibrary": "Removed from library",
+    "addedToLibraryWithName": "{{name}} added to library",
+    "removedFromLibraryWithName": "{{name}} removed from library"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page {{current}} of {{total}}",
+    "showing": "Showing {{from}}-{{to}} of {{total}}"
+  },
+  "errors": {
+    "generic": "Something went wrong",
+    "genericDescription": "Error. Try again.",
+    "networkError": "Connection error. Check your internet.",
+    "notFound": "Page not found",
+    "notFoundDescription": "Page not found.",
+    "artistNotFound": "Artist not found",
+    "artistNotFoundDescription": "Artist not found.",
+    "unauthorized": "Session expired. Please log in again.",
+    "tryAgain": "Try again",
+    "goHome": "Go back home",
+    "reloadPage": "Reload page"
+  },
+  "language": {
+    "select": "Language",
+    "pt-BR": "Português (Brasil)",
+    "en-US": "English (US)"
+  },
+  "charts": {
+    "title": "Statistics",
+    "subtitle": "Analysis of {{artist}}'s songs",
+    "popularity": "Popularity",
+    "tracks": "tracks",
+    "popularityTitle": "Top Tracks Popularity",
+    "durationTitle": "Duration Distribution",
+    "stats": {
+      "avgPopularity": "Average Popularity",
+      "avgDuration": "Average Duration",
+      "totalTracks": "Total Tracks",
+      "explicitTracks": "Explicit Content"
+    },
+    "duration": {
+      "veryShort": "Very Short (<2min)",
+      "short": "Short (2-3min)",
+      "medium": "Medium (3-4min)",
+      "long": "Long (4-5min)",
+      "veryLong": "Very Long (>5min)"
+    }
+  }
+}

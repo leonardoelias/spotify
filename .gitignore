@@ -1,0 +1,52 @@
+# Node.js dependencies
+/node_modules/*
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Vite cache
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# Documentation
+/docs/*
+
+# Test coverage
+coverage/
+*.lcov
+.lcov-report/
+
+# Local environment files
+.env
+*.local.*
+
+# Debug logs
+debug.log
+
+# Test results
+test-results/
+
+# Vite local config
+vite.config.local.ts
+
+# Playwright reports
+playwright-report/

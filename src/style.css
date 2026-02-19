@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-bg: #1C1C1E;
+  --color-surface: #2A2A2C;
+  --color-surface-hover: #333335;
+  --color-elevated: #3A3A3C;
+  --color-border-subtle: #38383A;
+
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #8E8E93;
+  --color-text-tertiary: #636366;
+
+  --color-accent: #34D399;
+  --color-accent-hover: #2CC08D;
+  --color-accent-muted: oklch(0.765 0.16 163.22 / 0.12);
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: var(--font-sans);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.3s ease-out;
+}
+
+/* Skeleton loading animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, var(--color-surface) 25%, var(--color-elevated) 50%, var(--color-surface) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.4s ease-out both;
+}
+
+@keyframes heart-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+.animate-heart-pulse {
+  animation: heart-pulse 0.3s ease-in-out;
+}
